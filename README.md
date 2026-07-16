@@ -63,3 +63,20 @@ UART of i.MX95 19x19 EVK.
 
 Customers will usually create their own board port that configures the DDR on their board.
 
+AOM5521A1 Board Variants
+========================
+
+This repository includes board ports for the AOM5521A1 module on i.MX95, available in two
+LPDDR5 memory configurations:
+
+* `mx95lp5_aom5521a1_16G` - 16 GB LPDDR5
+* `mx95lp5_aom5521a1_8G`  - 8 GB LPDDR5
+
+Both variants are based on the `mx95lp5` port and differ only in their DDR configuration. To build
+the DDR OEI for either board, use the corresponding `board=` value, for example:
+
+    make board=mx95lp5_aom5521a1_16G oei=ddr DEBUG=1
+    make board=mx95lp5_aom5521a1_8G oei=ddr DEBUG=1
+
+The resulting binary image is written to *build/<board>/ddr/oei-m33-ddr.bin*.
+
