@@ -304,4 +304,17 @@ void Ddr_Pre_Init(void);
  */
 void Ddr_Post_Init(void);
 
+#ifdef DEBUG
+/**
+ * Debug-only diagnostic dump of the DDRMIX SSI / safety-parity registers.
+ *
+ * Reads back and prints the candidate DDRMIX interconnect safety-parity
+ * registers (the source behind FCCU NCF[68], EMCEM_FCCU_FLT_PARITY_DDRMIX)
+ * plus a decoded "parity latched" line. Compiled in DEBUG builds only.
+ *
+ * @param phase    short label describing the call site in the DDR flow
+ */
+void Ddr_Ddrmix_Ssi_Parity_Dump(const char *phase);
+#endif
+
 #endif

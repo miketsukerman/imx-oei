@@ -121,6 +121,13 @@ int oei_main(uint32_t argc, uint32_t *argv)
         ret = memtest();
     }
 #endif
+#ifdef DEBUG
+    /* (c) Immediately before returning to ROM: dump DDRMIX SSI parity /
+       safety status so we can see whether parity is already latched at
+       OEI exit. */
+    Ddr_Ddrmix_Ssi_Parity_Dump("at OEI exit (return to ROM)");
+#endif
+
     printf("DDR OEI: done, err = %d\n", ret);
 
 #if !defined(DEBUG)

@@ -1,0 +1,1069 @@
+Archive member included to satisfy reference by file (symbol)
+
+/usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main/nofp/libgcc.a(_aeabi_ldivmod.o)
+                              ./build/mx95lp5_aom5521a1_8G/ddr/fsl_fract_pll.o (__aeabi_ldivmod)
+/usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main/nofp/libgcc.a(_aeabi_uldivmod.o)
+                              ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ccm.o (__aeabi_uldivmod)
+/usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main/nofp/libgcc.a(_udivmoddi4.o)
+                              /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main/nofp/libgcc.a(_aeabi_ldivmod.o) (__udivmoddi4)
+/usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main/nofp/libgcc.a(_dvmd_tls.o)
+                              /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main/nofp/libgcc.a(_aeabi_ldivmod.o) (__aeabi_ldiv0)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/board.o
+ .data          0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/board.o
+ .bss           0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/board.o
+ .text          0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/soc_clock.o
+ .data          0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/soc_clock.o
+ .bss           0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/soc_clock.o
+ .text.clk_root_set_rate_enable
+                0x00000000       0x24 ./build/mx95lp5_aom5521a1_8G/ddr/soc_clock.o
+ .text.Dram_Enable_Bypass
+                0x00000000        0x4 ./build/mx95lp5_aom5521a1_8G/ddr/soc_clock.o
+ .text          0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/soc_edma.o
+ .data          0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/soc_edma.o
+ .bss           0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/soc_edma.o
+ .text          0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/soc_time_cm33.o
+ .data          0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/soc_time_cm33.o
+ .bss           0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/soc_time_cm33.o
+ .text.time_after
+                0x00000000       0x20 ./build/mx95lp5_aom5521a1_8G/ddr/soc_time_cm33.o
+ .text.timer_get_us
+                0x00000000        0x8 ./build/mx95lp5_aom5521a1_8G/ddr/soc_time_cm33.o
+ .text.udelay   0x00000000        0x4 ./build/mx95lp5_aom5521a1_8G/ddr/soc_time_cm33.o
+ .text          0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/soc_ddr.o
+ .data          0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/soc_ddr.o
+ .bss           0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/soc_ddr.o
+ .text          0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_mu.o
+ .data          0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_mu.o
+ .bss           0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_mu.o
+ .text.MU_Init  0x00000000        0x4 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_mu.o
+ .text.MU_Deinit
+                0x00000000        0x4 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_mu.o
+ .text.MU_SendMsg
+                0x00000000       0x1c ./build/mx95lp5_aom5521a1_8G/ddr/fsl_mu.o
+ .text.MU_ReceiveMsg
+                0x00000000       0x14 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_mu.o
+ .text.MU_SetFlags
+                0x00000000        0xc ./build/mx95lp5_aom5521a1_8G/ddr/fsl_mu.o
+ .text.MU_GetStatusFlags
+                0x00000000       0x24 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_mu.o
+ .text.MU_TriggerInterrupts
+                0x00000000       0x14 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_mu.o
+ .text.MU_BootOtherCore
+                0x00000000       0x14 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_mu.o
+ .text.MU_HardwareResetOtherCore
+                0x00000000       0x30 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_mu.o
+ .debug_info    0x00000000      0x574 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_mu.o
+ .debug_abbrev  0x00000000      0x27b ./build/mx95lp5_aom5521a1_8G/ddr/fsl_mu.o
+ .debug_loclists
+                0x00000000      0x1ce ./build/mx95lp5_aom5521a1_8G/ddr/fsl_mu.o
+ .debug_aranges
+                0x00000000       0x60 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_mu.o
+ .debug_rnglists
+                0x00000000       0x43 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_mu.o
+ .debug_line    0x00000000      0x2e7 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_mu.o
+ .debug_str     0x00000000      0x3fe ./build/mx95lp5_aom5521a1_8G/ddr/fsl_mu.o
+ .comment       0x00000000       0x27 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_mu.o
+ .debug_frame   0x00000000       0xac ./build/mx95lp5_aom5521a1_8G/ddr/fsl_mu.o
+ .ARM.attributes
+                0x00000000       0x32 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_mu.o
+ .text          0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ele.o
+ .data          0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ele.o
+ .bss           0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ele.o
+ .text.ELE_Call.constprop.0
+                0x00000000       0xe4 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ele.o
+ .text.ELE_GetInfo
+                0x00000000       0xac ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ele.o
+ .text.ELE_SignData
+                0x00000000       0x2c ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ele.o
+ .text.ELE_VerifyData_Tx
+                0x00000000       0x58 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ele.o
+ .text.ELE_VerifyData_Rx
+                0x00000000       0x84 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ele.o
+ .text.ELE_VerifyData
+                0x00000000       0x2c ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ele.o
+ .text.ELE_ReleaseImageRam
+                0x00000000       0x2c ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ele.o
+ .text.ELE_StartRng
+                0x00000000       0x14 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ele.o
+ .text.ELE_GetTRngState
+                0x00000000       0x34 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ele.o
+ .text.ELE_IeeInstallRegion
+                0x00000000       0x48 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ele.o
+ .bss.s_eleRxInPogress
+                0x00000000        0x1 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ele.o
+ .bss.s_msgMax  0x00000000       0x5c ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ele.o
+ .debug_info    0x00000000     0x1212 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ele.o
+ .debug_abbrev  0x00000000      0x3a6 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ele.o
+ .debug_loclists
+                0x00000000      0x71e ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ele.o
+ .debug_aranges
+                0x00000000       0x68 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ele.o
+ .debug_rnglists
+                0x00000000       0xb1 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ele.o
+ .debug_line    0x00000000      0x876 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ele.o
+ .debug_str     0x00000000     0x12f3 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ele.o
+ .comment       0x00000000       0x27 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ele.o
+ .debug_frame   0x00000000      0x148 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ele.o
+ .ARM.attributes
+                0x00000000       0x32 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ele.o
+ .text          0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/crc.o
+ .data          0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/crc.o
+ .bss           0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/crc.o
+ .text.CRC_Xor  0x00000000       0xdc ./build/mx95lp5_aom5521a1_8G/ddr/crc.o
+ .text.CRC_J1850
+                0x00000000       0xa0 ./build/mx95lp5_aom5521a1_8G/ddr/crc.o
+ .text          0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/edma.o
+ .data          0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/edma.o
+ .bss           0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/edma.o
+ .text          0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ccm.o
+ .data          0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ccm.o
+ .bss           0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ccm.o
+ .text.CCM_RootGetEnable
+                0x00000000       0x1c ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ccm.o
+ .text.CCM_RootGetRate
+                0x00000000       0x48 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ccm.o
+ .text.CCM_RootSetRate
+                0x00000000       0xf0 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ccm.o
+ .text.CCM_RootMuxNumInputsGet
+                0x00000000       0x10 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ccm.o
+ .text.CCM_RootMuxInputGet
+                0x00000000       0x24 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ccm.o
+ .text.CCM_RootGetParent
+                0x00000000       0x28 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ccm.o
+ .text.CCM_RootGetDiv
+                0x00000000       0x1c ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ccm.o
+ .text.CCM_GprSelGetEnable
+                0x00000000        0xc ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ccm.o
+ .text.CCM_GprSelGetRate
+                0x00000000       0xb0 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ccm.o
+ .text.CCM_GprSelMuxNumInputsGet
+                0x00000000       0x10 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ccm.o
+ .text.CCM_GprSelMuxInputGet
+                0x00000000       0x24 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ccm.o
+ .text.CCM_GprSelGetParent
+                0x00000000       0x48 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ccm.o
+ .text.CCM_GprSelSetParent
+                0x00000000       0x64 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ccm.o
+ .text.CCM_LpcgLpmSet
+                0x00000000       0x60 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ccm.o
+ .text.CCM_LpcgLpmGet
+                0x00000000       0x68 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ccm.o
+ .text.CCM_LpcgModeSet
+                0x00000000       0x38 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ccm.o
+ .text.CCM_LpcgTimeoutSetEnable
+                0x00000000       0x38 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ccm.o
+ .text          0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_clock.o
+ .data          0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_clock.o
+ .bss           0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_clock.o
+ .text.CLOCK_SourceGetSsc
+                0x00000000       0x5c ./build/mx95lp5_aom5521a1_8G/ddr/fsl_clock.o
+ .text          0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_fract_pll.o
+ .data          0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_fract_pll.o
+ .bss           0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_fract_pll.o
+ .text.FRACTPLL_UpdateDfsRate
+                0x00000000       0x8c ./build/mx95lp5_aom5521a1_8G/ddr/fsl_fract_pll.o
+ .text.FRACTPLL_SetContext
+                0x00000000       0x44 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_fract_pll.o
+ .text.FRACTPLL_GetContext
+                0x00000000       0x44 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_fract_pll.o
+ .text.FRACTPLL_GetSscConfig
+                0x00000000       0x30 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_fract_pll.o
+ .text.FRACTPLL_CalcSscParams
+                0x00000000      0x138 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_fract_pll.o
+ .text          0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_power.o
+ .data          0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_power.o
+ .bss           0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_power.o
+ .text.PWR_Init
+                0x00000000       0x84 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_power.o
+ .text.PWR_IsParentPowered
+                0x00000000       0x10 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_power.o
+ .text.PWR_AnyChildPowered
+                0x00000000       0x20 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_power.o
+ .text.PWR_NumChildPowered
+                0x00000000       0x24 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_power.o
+ .text.PWR_SystemPowerDown
+                0x00000000       0x10 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_power.o
+ .text.PWR_LpHandshakeMaskSet
+                0x00000000       0x70 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_power.o
+ .text.PWR_EleLpHandshakeMaskSet
+                0x00000000       0x70 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_power.o
+ .text.PWR_LpHandshakeModeGet
+                0x00000000       0x28 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_power.o
+ .text.PWR_LpHandshakeAck
+                0x00000000       0x58 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_power.o
+ .rodata.s_gpcReqMixId2Pd.0
+                0x00000000       0x40 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_power.o
+ .text          0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_src.o
+ .data          0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_src.o
+ .bss           0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_src.o
+ .text.SRC_MixInit
+                0x00000000       0x90 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_src.o
+ .text.SRC_MixLpmModeSet
+                0x00000000       0x2c ./build/mx95lp5_aom5521a1_8G/ddr/fsl_src.o
+ .text.SRC_MixCpuLpmSet
+                0x00000000       0x74 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_src.o
+ .text.SRC_MixCpuLpmGet
+                0x00000000       0x5c ./build/mx95lp5_aom5521a1_8G/ddr/fsl_src.o
+ .text.SRC_MemRetentionModeSet
+                0x00000000       0x60 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_src.o
+ .text.SRC_MemMaskGet
+                0x00000000       0x20 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_src.o
+ .text.SRC_MixSoftPowerDown
+                0x00000000      0x110 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_src.o
+ .text.SRC_MixSoftPowerUp
+                0x00000000       0xe4 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_src.o
+ .text.SRC_MixIsPwrSwitchOn
+                0x00000000       0x20 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_src.o
+ .text.SRC_MixSetResetLine
+                0x00000000       0x64 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_src.o
+ .text.SRC_MixGetResetLine
+                0x00000000       0x38 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_src.o
+ .text.SRC_MixIsolationSetup
+                0x00000000       0x20 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_src.o
+ .rodata.s_srcMemPtrs
+                0x00000000       0x54 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_src.o
+ .text          0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_sysctr.o
+ .data          0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_sysctr.o
+ .bss           0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_sysctr.o
+ .text.SYSCTR_GetCounter64
+                0x00000000       0x14 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_sysctr.o
+ .text.SYSCTR_GetCounter32
+                0x00000000        0xc ./build/mx95lp5_aom5521a1_8G/ddr/fsl_sysctr.o
+ .text.SYSCTR_GetUsec32
+                0x00000000       0x18 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_sysctr.o
+ .text.SYSCTR_FreqMode
+                0x00000000       0x3c ./build/mx95lp5_aom5521a1_8G/ddr/fsl_sysctr.o
+ .text          0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/lpddr5_timing.o
+ .data          0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/lpddr5_timing.o
+ .bss           0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/lpddr5_timing.o
+ .text          0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/main.o
+ .data          0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/main.o
+ .bss           0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/main.o
+ .text          0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/ddr_init.o
+ .data          0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/ddr_init.o
+ .bss           0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/ddr_init.o
+ .text          0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_utils.o
+ .data          0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_utils.o
+ .bss           0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_utils.o
+ .text          0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/helper.o
+ .data          0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/helper.o
+ .bss           0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/helper.o
+ .text          0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_qb.o
+ .data          0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_qb.o
+ .bss           0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_qb.o
+ .text          0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_train.o
+ .data          0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_train.o
+ .bss           0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_train.o
+ .text          0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_qb_gen.o
+ .data          0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_qb_gen.o
+ .bss           0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_qb_gen.o
+ .text          0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/romapi.o
+ .data          0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/romapi.o
+ .bss           0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/romapi.o
+ .data          0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/aeabi_memset-thumb2.o
+ .bss           0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/aeabi_memset-thumb2.o
+ .text          0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/oei_entry.o
+ .data          0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/oei_entry.o
+ .bss           0x00000000        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/oei_entry.o
+ .text          0x00000000       0xa0 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main/nofp/libgcc.a(_aeabi_ldivmod.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main/nofp/libgcc.a(_aeabi_ldivmod.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main/nofp/libgcc.a(_aeabi_ldivmod.o)
+ .debug_line    0x00000000       0x6c /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main/nofp/libgcc.a(_aeabi_ldivmod.o)
+ .debug_line_str
+                0x00000000       0x98 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main/nofp/libgcc.a(_aeabi_ldivmod.o)
+ .debug_info    0x00000000       0x25 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main/nofp/libgcc.a(_aeabi_ldivmod.o)
+ .debug_abbrev  0x00000000       0x14 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main/nofp/libgcc.a(_aeabi_ldivmod.o)
+ .debug_aranges
+                0x00000000       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main/nofp/libgcc.a(_aeabi_ldivmod.o)
+ .debug_str     0x00000000       0xa4 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main/nofp/libgcc.a(_aeabi_ldivmod.o)
+ .debug_frame   0x00000000       0x44 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main/nofp/libgcc.a(_aeabi_ldivmod.o)
+ .ARM.attributes
+                0x00000000       0x22 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main/nofp/libgcc.a(_aeabi_ldivmod.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main/nofp/libgcc.a(_aeabi_uldivmod.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main/nofp/libgcc.a(_aeabi_uldivmod.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main/nofp/libgcc.a(_udivmoddi4.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main/nofp/libgcc.a(_udivmoddi4.o)
+ .ARM.extab     0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main/nofp/libgcc.a(_udivmoddi4.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main/nofp/libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main/nofp/libgcc.a(_dvmd_tls.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+s_code           0x1ffc0000         0x00059000         xr
+s_data           0x20019000         0x00001000         rw
+s_retn           0x2001a000         0x00010000         rw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./build/mx95lp5_aom5521a1_8G/ddr/board.o
+LOAD ./build/mx95lp5_aom5521a1_8G/ddr/soc_clock.o
+LOAD ./build/mx95lp5_aom5521a1_8G/ddr/soc_edma.o
+LOAD ./build/mx95lp5_aom5521a1_8G/ddr/soc_time_cm33.o
+LOAD ./build/mx95lp5_aom5521a1_8G/ddr/soc_ddr.o
+LOAD ./build/mx95lp5_aom5521a1_8G/ddr/fsl_mu.o
+LOAD ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ele.o
+LOAD ./build/mx95lp5_aom5521a1_8G/ddr/crc.o
+LOAD ./build/mx95lp5_aom5521a1_8G/ddr/edma.o
+LOAD ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ccm.o
+LOAD ./build/mx95lp5_aom5521a1_8G/ddr/fsl_clock.o
+LOAD ./build/mx95lp5_aom5521a1_8G/ddr/fsl_fract_pll.o
+LOAD ./build/mx95lp5_aom5521a1_8G/ddr/fsl_power.o
+LOAD ./build/mx95lp5_aom5521a1_8G/ddr/fsl_src.o
+LOAD ./build/mx95lp5_aom5521a1_8G/ddr/fsl_sysctr.o
+LOAD ./build/mx95lp5_aom5521a1_8G/ddr/lpddr5_timing.o
+LOAD ./build/mx95lp5_aom5521a1_8G/ddr/main.o
+LOAD ./build/mx95lp5_aom5521a1_8G/ddr/ddr_init.o
+LOAD ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_utils.o
+LOAD ./build/mx95lp5_aom5521a1_8G/ddr/helper.o
+LOAD ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_qb.o
+LOAD ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_train.o
+LOAD ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_qb_gen.o
+LOAD ./build/mx95lp5_aom5521a1_8G/ddr/romapi.o
+LOAD ./build/mx95lp5_aom5521a1_8G/ddr/aeabi_memset-thumb2.o
+LOAD ./build/mx95lp5_aom5521a1_8G/ddr/oei_entry.o
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main/nofp/libgcc.a
+                0x1ffc0000                        CM33_TCMU_OFFSET = 0x1ffc0000
+                0x20019000                        BSS_STACK_OFFSET = 0x20019000
+                0x2001a000                        RETENTION_OFFSET = 0x2001a000
+                0x00010000                        RETENTION_SIZE = 0x10000
+                0x00000400                        STACK_SIZE = 0x400
+                0x2001a000                        __StackTop = RETENTION_OFFSET
+                0x20019c00                        __StackLimit = (__StackTop - STACK_SIZE)
+
+.text           0x1ffc0000     0x308c
+                0x1ffc0000                        . = ALIGN (0x4)
+ *(.entry)
+ .entry         0x1ffc0000       0x6c ./build/mx95lp5_aom5521a1_8G/ddr/oei_entry.o
+                0x1ffc0000                oei_entry
+ *(.text*)
+ .text.BOARD_InitHardware
+                0x1ffc006c        0x4 ./build/mx95lp5_aom5521a1_8G/ddr/board.o
+                0x1ffc006c                BOARD_InitHardware
+ .text.Clock_Init
+                0x1ffc0070       0x20 ./build/mx95lp5_aom5521a1_8G/ddr/soc_clock.o
+                0x1ffc0070                Clock_Init
+ .text.Dram_PLL_Init
+                0x1ffc0090      0x190 ./build/mx95lp5_aom5521a1_8G/ddr/soc_clock.o
+                0x1ffc0090                Dram_PLL_Init
+ .text.Dram_Disable_Bypass
+                0x1ffc0220       0x28 ./build/mx95lp5_aom5521a1_8G/ddr/soc_clock.o
+                0x1ffc0220                Dram_Disable_Bypass
+ .text.Convert_To_Dma_Addr
+                0x1ffc0248       0x24 ./build/mx95lp5_aom5521a1_8G/ddr/soc_edma.o
+                0x1ffc0248                Convert_To_Dma_Addr
+ .text.timer_enable
+                0x1ffc026c        0x4 ./build/mx95lp5_aom5521a1_8G/ddr/soc_time_cm33.o
+                0x1ffc026c                timer_enable
+ .text.timer_is_enabled
+                0x1ffc0270       0x10 ./build/mx95lp5_aom5521a1_8G/ddr/soc_time_cm33.o
+                0x1ffc0270                timer_is_enabled
+ .text.SystemTimeDelay
+                0x1ffc0280        0x4 ./build/mx95lp5_aom5521a1_8G/ddr/soc_time_cm33.o
+                0x1ffc0280                SystemTimeDelay
+ .text.Get_Training_Data_Offset
+                0x1ffc0284       0xb8 ./build/mx95lp5_aom5521a1_8G/ddr/soc_ddr.o
+                0x1ffc0284                Get_Training_Data_Offset
+ .text.Ddr_Pre_Init
+                0x1ffc033c        0x4 ./build/mx95lp5_aom5521a1_8G/ddr/soc_ddr.o
+                0x1ffc033c                Ddr_Pre_Init
+ .text.Ddr_Post_Init
+                0x1ffc0340        0x4 ./build/mx95lp5_aom5521a1_8G/ddr/soc_ddr.o
+                0x1ffc0340                Ddr_Post_Init
+ .text.Ddr_Training_Data_Sign
+                0x1ffc0344       0x20 ./build/mx95lp5_aom5521a1_8G/ddr/soc_ddr.o
+                0x1ffc0344                Ddr_Training_Data_Sign
+ .text.Ddr_Training_Data_Check_Init
+                0x1ffc0364        0x4 ./build/mx95lp5_aom5521a1_8G/ddr/soc_ddr.o
+                0x1ffc0364                Ddr_Training_Data_Check_Init
+ .text.Ddr_Training_Data_Check
+                0x1ffc0368       0x24 ./build/mx95lp5_aom5521a1_8G/ddr/soc_ddr.o
+                0x1ffc0368                Ddr_Training_Data_Check
+ .text.Ddr_Training_Data_Invalidate
+                0x1ffc038c        0xc ./build/mx95lp5_aom5521a1_8G/ddr/soc_ddr.o
+                0x1ffc038c                Ddr_Training_Data_Invalidate
+ .text.CRC_Crc32
+                0x1ffc0398       0x40 ./build/mx95lp5_aom5521a1_8G/ddr/crc.o
+                0x1ffc0398                CRC_Crc32
+ .text.dma_dummy
+                0x1ffc03d8        0x4 ./build/mx95lp5_aom5521a1_8G/ddr/edma.o
+ .text.enable_dma_mst_rep
+                0x1ffc03dc       0x1c ./build/mx95lp5_aom5521a1_8G/ddr/edma.o
+ .text.set_dma_transfer_bytes
+                0x1ffc03f8      0x1f8 ./build/mx95lp5_aom5521a1_8G/ddr/edma.o
+ .text.start_dma
+                0x1ffc05f0       0x18 ./build/mx95lp5_aom5521a1_8G/ddr/edma.o
+ .text.dma_write_only
+                0x1ffc0608       0x1c ./build/mx95lp5_aom5521a1_8G/ddr/edma.o
+ .text.clr_dma  0x1ffc0624       0x40 ./build/mx95lp5_aom5521a1_8G/ddr/edma.o
+ .text.check_dma
+                0x1ffc0664        0xc ./build/mx95lp5_aom5521a1_8G/ddr/edma.o
+ .text.wait_major_loop
+                0x1ffc0670       0x10 ./build/mx95lp5_aom5521a1_8G/ddr/edma.o
+ .text.set_dma  0x1ffc0680       0xac ./build/mx95lp5_aom5521a1_8G/ddr/edma.o
+ .text.CCM_RootSetEnable
+                0x1ffc072c       0x24 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ccm.o
+                0x1ffc072c                CCM_RootSetEnable
+ .text.CCM_RootSetParent
+                0x1ffc0750       0x54 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ccm.o
+                0x1ffc0750                CCM_RootSetParent
+ .text.CCM_RootSetDiv
+                0x1ffc07a4       0x24 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ccm.o
+                0x1ffc07a4                CCM_RootSetDiv
+ .text.CCM_GprSelExtGetRate
+                0x1ffc07c8       0x34 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ccm.o
+                0x1ffc07c8                CCM_GprSelExtGetRate
+ .text.CCM_GprValSet
+                0x1ffc07fc       0x28 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ccm.o
+                0x1ffc07fc                CCM_GprValSet
+ .text.CLOCK_SourceGetEnable
+                0x1ffc0824      0x25c ./build/mx95lp5_aom5521a1_8G/ddr/fsl_clock.o
+                0x1ffc0824                CLOCK_SourceGetEnable
+ .text.CLOCK_SourceSetEnable
+                0x1ffc0a80      0x298 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_clock.o
+                0x1ffc0a80                CLOCK_SourceSetEnable
+ .text.CLOCK_SourceGetRate
+                0x1ffc0d18      0x1dc ./build/mx95lp5_aom5521a1_8G/ddr/fsl_clock.o
+                0x1ffc0d18                CLOCK_SourceGetRate
+ .text.CLOCK_SourceSetRate
+                0x1ffc0ef4      0x1d8 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_clock.o
+                0x1ffc0ef4                CLOCK_SourceSetRate
+ .text.CLOCK_SourceSetSsc
+                0x1ffc10cc       0x5c ./build/mx95lp5_aom5521a1_8G/ddr/fsl_clock.o
+                0x1ffc10cc                CLOCK_SourceSetSsc
+ .text.FRACTPLL_GetEnable
+                0x1ffc1128       0x20 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_fract_pll.o
+                0x1ffc1128                FRACTPLL_GetEnable
+ .text.FRACTPLL_SetEnable
+                0x1ffc1148       0xa0 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_fract_pll.o
+                0x1ffc1148                FRACTPLL_SetEnable
+ .text.FRACTPLL_GetRate
+                0x1ffc11e8       0xa0 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_fract_pll.o
+                0x1ffc11e8                FRACTPLL_GetRate
+ .text.FRACTPLL_UpdateRate
+                0x1ffc1288      0x1f0 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_fract_pll.o
+                0x1ffc1288                FRACTPLL_UpdateRate
+ .text.FRACTPLL_SetRate
+                0x1ffc1478       0xf4 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_fract_pll.o
+                0x1ffc1478                FRACTPLL_SetRate
+ .text.FRACTPLL_GetDfsEnable
+                0x1ffc156c       0x34 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_fract_pll.o
+                0x1ffc156c                FRACTPLL_GetDfsEnable
+ .text.FRACTPLL_SetDfsEnable
+                0x1ffc15a0       0x40 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_fract_pll.o
+                0x1ffc15a0                FRACTPLL_SetDfsEnable
+ .text.FRACTPLL_GetDfsRate
+                0x1ffc15e0       0xcc ./build/mx95lp5_aom5521a1_8G/ddr/fsl_fract_pll.o
+                0x1ffc15e0                FRACTPLL_GetDfsRate
+ .text.FRACTPLL_SetDfsRate
+                0x1ffc16ac      0x15c ./build/mx95lp5_aom5521a1_8G/ddr/fsl_fract_pll.o
+                0x1ffc16ac                FRACTPLL_SetDfsRate
+ .text.FRACTPLL_SetSscConfig
+                0x1ffc1808       0x28 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_fract_pll.o
+                0x1ffc1808                FRACTPLL_SetSscConfig
+ .text.SRC_MixIsPwrReady
+                0x1ffc1830       0x40 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_src.o
+                0x1ffc1830                SRC_MixIsPwrReady
+ .text.SYSCTR_Init
+                0x1ffc1870        0xc ./build/mx95lp5_aom5521a1_8G/ddr/fsl_sysctr.o
+                0x1ffc1870                SYSCTR_Init
+ .text.SYSCTR_GetUsec64
+                0x1ffc187c       0x50 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_sysctr.o
+                0x1ffc187c                SYSCTR_GetUsec64
+ .text.SYSCTR_TimeDelay
+                0x1ffc18cc       0x38 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_sysctr.o
+                0x1ffc18cc                SYSCTR_TimeDelay
+ .text.oei_main
+                0x1ffc1904       0xa0 ./build/mx95lp5_aom5521a1_8G/ddr/main.o
+                0x1ffc1904                oei_main
+ .text.Ddrc_Config
+                0x1ffc19a4       0xa0 ./build/mx95lp5_aom5521a1_8G/ddr/ddr_init.o
+                0x1ffc19a4                Ddrc_Config
+ .text.Ddrc_Get_Sdram_Type
+                0x1ffc1a44       0x40 ./build/mx95lp5_aom5521a1_8G/ddr/ddr_init.o
+                0x1ffc1a44                Ddrc_Get_Sdram_Type
+ .text.Ddrc_Init
+                0x1ffc1a84      0x25c ./build/mx95lp5_aom5521a1_8G/ddr/ddr_init.o
+                0x1ffc1a84                Ddrc_Init
+ .text.Wait_Ddr_Phy_Training_Complete
+                0x1ffc1ce0       0x94 ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_utils.o
+                0x1ffc1ce0                Wait_Ddr_Phy_Training_Complete
+ .text.Ddr_Phy_Init_Set_Dfi_Clk
+                0x1ffc1d74       0xa4 ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_utils.o
+                0x1ffc1d74                Ddr_Phy_Init_Set_Dfi_Clk
+ .text.Ddr_Phy_Cfg_Set
+                0x1ffc1e18       0x40 ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_utils.o
+                0x1ffc1e18                Ddr_Phy_Cfg_Set
+ .text.Ddr_Phy_Init_Read_Msg_Block
+                0x1ffc1e58        0x4 ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_utils.o
+                0x1ffc1e58                Ddr_Phy_Init_Read_Msg_Block
+ .text.Wait_Edma_Transfer
+                0x1ffc1e5c       0x18 ./build/mx95lp5_aom5521a1_8G/ddr/helper.o
+ .text.Start_Edma_Transfer
+                0x1ffc1e74       0x28 ./build/mx95lp5_aom5521a1_8G/ddr/helper.o
+ .text.Edma_Acsm_Sram_Restore
+                0x1ffc1e9c       0x74 ./build/mx95lp5_aom5521a1_8G/ddr/helper.o
+ .text.Edma_Ddr_Load_Train_Firmware
+                0x1ffc1f10      0x228 ./build/mx95lp5_aom5521a1_8G/ddr/helper.o
+ .text.Edma_Ddr_Load_DMEM
+                0x1ffc2138      0x14c ./build/mx95lp5_aom5521a1_8G/ddr/helper.o
+ .text.Edma_Copy_Data
+                0x1ffc2284       0x70 ./build/mx95lp5_aom5521a1_8G/ddr/helper.o
+                0x1ffc2284                Edma_Copy_Data
+ .text.Ddr_Cfg_Save
+                0x1ffc22f4      0x264 ./build/mx95lp5_aom5521a1_8G/ddr/helper.o
+                0x1ffc22f4                Ddr_Cfg_Save
+ .text.Ddr_Phy_Trained_Csr_Save
+                0x1ffc2558       0xb8 ./build/mx95lp5_aom5521a1_8G/ddr/helper.o
+                0x1ffc2558                Ddr_Phy_Trained_Csr_Save
+ .text.Ddr_Cfg_Phy_Qb
+                0x1ffc2610      0x2c8 ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_qb.o
+                0x1ffc2610                Ddr_Cfg_Phy_Qb
+ .text.Ddr_Cfg_Phy
+                0x1ffc28d8      0x124 ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_train.o
+                0x1ffc28d8                Ddr_Cfg_Phy
+ .text.Ddr_Phy_Qb_Save
+                0x1ffc29fc      0x1e4 ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_qb_gen.o
+                0x1ffc29fc                Ddr_Phy_Qb_Save
+ .text.Rom_Api_Query_Boot_Info
+                0x1ffc2be0        0xc ./build/mx95lp5_aom5521a1_8G/ddr/romapi.o
+                0x1ffc2be0                Rom_Api_Query_Boot_Info
+ .text.Rom_Api_Set_Ready
+                0x1ffc2bec        0x8 ./build/mx95lp5_aom5521a1_8G/ddr/romapi.o
+                0x1ffc2bec                Rom_Api_Set_Ready
+ .text.Rom_Api_Read
+                0x1ffc2bf4       0x74 ./build/mx95lp5_aom5521a1_8G/ddr/romapi.o
+                0x1ffc2bf4                Rom_Api_Read
+ .text.Rom_Api_Boot_Dev_Is_Stream
+                0x1ffc2c68       0x50 ./build/mx95lp5_aom5521a1_8G/ddr/romapi.o
+                0x1ffc2c68                Rom_Api_Boot_Dev_Is_Stream
+ .text          0x1ffc2cb8       0xa0 ./build/mx95lp5_aom5521a1_8G/ddr/aeabi_memset-thumb2.o
+                0x1ffc2cb8                memset
+ .text          0x1ffc2d58       0x30 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main/nofp/libgcc.a(_aeabi_uldivmod.o)
+                0x1ffc2d58                __aeabi_uldivmod
+ .text          0x1ffc2d88      0x300 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main/nofp/libgcc.a(_udivmoddi4.o)
+                0x1ffc2d88                __udivmoddi4
+ .text          0x1ffc3088        0x4 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main/nofp/libgcc.a(_dvmd_tls.o)
+                0x1ffc3088                __aeabi_ldiv0
+                0x1ffc3088                __aeabi_idiv0
+
+.glue_7         0x1ffc308c        0x0
+ .glue_7        0x1ffc308c        0x0 linker stubs
+
+.glue_7t        0x1ffc308c        0x0
+ .glue_7t       0x1ffc308c        0x0 linker stubs
+
+.vfp11_veneer   0x1ffc308c        0x0
+ .vfp11_veneer  0x1ffc308c        0x0 linker stubs
+
+.v4_bx          0x1ffc308c        0x0
+ .v4_bx         0x1ffc308c        0x0 linker stubs
+
+.iplt           0x1ffc308c        0x0
+ .iplt          0x1ffc308c        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/board.o
+
+.rodata         0x1ffc3090     0x57d8
+                0x1ffc3090                        . = ALIGN (0x4)
+ *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.rodata*)))
+ .rodata.g_pwrMixMgmtInfo
+                0x1ffc3090      0x398 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_power.o
+                0x1ffc3090                g_pwrMixMgmtInfo
+ .rodata.ddrphy_csr_cfg
+                0x1ffc3428     0x50c0 ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_qb_gen.o
+ .rodata.g_clockGprSel
+                0x1ffc84e8       0xc8 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_clock.o
+                0x1ffc84e8                g_clockGprSel
+ .rodata.g_clockRootMux
+                0x1ffc85b0      0x1ec ./build/mx95lp5_aom5521a1_8G/ddr/fsl_clock.o
+                0x1ffc85b0                g_clockRootMux
+ .rodata.g_pllAttrs
+                0x1ffc879c       0x10 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_clock.o
+                0x1ffc879c                g_pllAttrs
+ .rodata.s_crcTable.0
+                0x1ffc87ac       0x40 ./build/mx95lp5_aom5521a1_8G/ddr/crc.o
+ .rodata.s_pllPtrs
+                0x1ffc87ec       0x20 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_fract_pll.o
+ .rodata.s_srcMixPtrs
+                0x1ffc880c       0x5c ./build/mx95lp5_aom5521a1_8G/ddr/fsl_src.o
+
+.ARM.exidx      0x1ffc8868        0x8
+ .ARM.exidx     0x1ffc8868        0x8 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main/nofp/libgcc.a(_udivmoddi4.o)
+
+.rel.dyn        0x1ffc8870        0x0
+ .rel.iplt      0x1ffc8870        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/board.o
+
+.data           0x1ffc8870     0xfc08
+                0x1ffc8870                        . = ALIGN (0x4)
+ *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.data*)))
+ .data.fracpll_tbl
+                0x1ffc8870      0x110 ./build/mx95lp5_aom5521a1_8G/ddr/soc_clock.o
+                0x1ffc8870                fracpll_tbl
+ .data.ddr_ddrc_cfg
+                0x1ffc8980      0x120 ./build/mx95lp5_aom5521a1_8G/ddr/lpddr5_timing.o
+ .data.ddr_ddrphy_cfg
+                0x1ffc8aa0      0x20a ./build/mx95lp5_aom5521a1_8G/ddr/lpddr5_timing.o
+ *fill*         0x1ffc8caa        0x2 
+ .data.ddr_ddrphy_trained_csr
+                0x1ffc8cac     0x8682 ./build/mx95lp5_aom5521a1_8G/ddr/lpddr5_timing.o
+ *fill*         0x1ffd132e        0x2 
+ .data.ddr_dram_fsp0_ddrc_cfg
+                0x1ffd1330       0x90 ./build/mx95lp5_aom5521a1_8G/ddr/lpddr5_timing.o
+ .data.ddr_dram_fsp_cfg
+                0x1ffd13c0       0x14 ./build/mx95lp5_aom5521a1_8G/ddr/lpddr5_timing.o
+ .data.ddr_dram_fsp_msg
+                0x1ffd13d4       0x28 ./build/mx95lp5_aom5521a1_8G/ddr/lpddr5_timing.o
+ .data.ddr_phy_fsp0_cfg
+                0x1ffd13fc      0x9f6 ./build/mx95lp5_aom5521a1_8G/ddr/lpddr5_timing.o
+ *fill*         0x1ffd1df2        0x2 
+ .data.ddr_phy_msgh_fsp0_cfg
+                0x1ffd1df4      0x11a ./build/mx95lp5_aom5521a1_8G/ddr/lpddr5_timing.o
+ *fill*         0x1ffd1f0e        0x2 
+ .data.ddr_phy_pie
+                0x1ffd1f10     0x5fb8 ./build/mx95lp5_aom5521a1_8G/ddr/lpddr5_timing.o
+ .data.ddr_phy_pie_fsp0_cfg
+                0x1ffd7ec8      0x522 ./build/mx95lp5_aom5521a1_8G/ddr/lpddr5_timing.o
+ *fill*         0x1ffd83ea        0x2 
+ .data.dram_timing
+                0x1ffd83ec       0x50 ./build/mx95lp5_aom5521a1_8G/ddr/lpddr5_timing.o
+                0x1ffd83ec                dram_timing
+ .data.edma_ops
+                0x1ffd843c       0x28 ./build/mx95lp5_aom5521a1_8G/ddr/edma.o
+                0x1ffd843c                edma_ops
+ .data.phy_ops  0x1ffd8464       0x14 ./build/mx95lp5_aom5521a1_8G/ddr/helper.o
+                0x1ffd8464                phy_ops
+                0x1ffd8478                        . = ALIGN (0x4)
+                0x1ffd8478                        s_code_end = .
+
+.igot.plt       0x1ffd8478        0x0
+ .igot.plt      0x1ffd8478        0x0 ./build/mx95lp5_aom5521a1_8G/ddr/board.o
+
+.bss            0x20019000       0xb8
+                0x20019000                        . = ALIGN (0x4)
+                0x20019000                        __START_BSS = .
+                0x20019000                        __bss_start__ = .
+ *(.bss)
+ *(.bss*)
+ .bss.g_clockExt1Rate
+                0x20019000        0x8 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_clock.o
+                0x20019000                g_clockExt1Rate
+ .bss.s_sscConfig
+                0x20019008       0x60 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_fract_pll.o
+ .bss.s_vcoRateIsLatched
+                0x20019068        0x8 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_fract_pll.o
+ .bss.s_vcoRates
+                0x20019070       0x40 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_fract_pll.o
+ .bss.msplim.0  0x200190b0        0x4 ./build/mx95lp5_aom5521a1_8G/ddr/oei_entry.o
+ .bss.msp.1     0x200190b4        0x4 ./build/mx95lp5_aom5521a1_8G/ddr/oei_entry.o
+ *(COMMON)
+                0x200190b8                        . = ALIGN (0x4)
+                0x200190b8                        __bss_end__ = .
+                0x200190b8                        __END_BSS = .
+                0x00000001                        ASSERT ((__START_BSS >= BSS_STACK_OFFSET), s_data overflowed by BSS)
+
+.stack          0x20019c00      0x400
+                0x20019c00                        . = ALIGN (0x8)
+                0x2001a000                        . = (. + STACK_SIZE)
+ *fill*         0x20019c00      0x400 
+
+.retention      0x2001a000    0x10000
+                0x2001a000                        . = ALIGN (0x4)
+                0x2001a000                        __RetentionStart = .
+                0x2002a000                        . = (. + RETENTION_SIZE)
+ *fill*         0x2001a000    0x10000 
+                0x2002a000                        . = ALIGN (0x4)
+                0x2002a000                        __RetentionEnd = .
+OUTPUT(build/mx95lp5_aom5521a1_8G/ddr/oei-m33-ddr.elf elf32-littlearm)
+LOAD linker stubs
+
+.debug_info     0x00000000    0x10dee
+ .debug_info    0x00000000       0xa3 ./build/mx95lp5_aom5521a1_8G/ddr/board.o
+ .debug_info    0x000000a3      0x8a3 ./build/mx95lp5_aom5521a1_8G/ddr/soc_clock.o
+ .debug_info    0x00000946       0xb8 ./build/mx95lp5_aom5521a1_8G/ddr/soc_edma.o
+ .debug_info    0x000009fe      0x290 ./build/mx95lp5_aom5521a1_8G/ddr/soc_time_cm33.o
+ .debug_info    0x00000c8e      0x8b3 ./build/mx95lp5_aom5521a1_8G/ddr/soc_ddr.o
+ .debug_info    0x00001541      0x23b ./build/mx95lp5_aom5521a1_8G/ddr/crc.o
+ .debug_info    0x0000177c      0x96c ./build/mx95lp5_aom5521a1_8G/ddr/edma.o
+ .debug_info    0x000020e8     0x12f4 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ccm.o
+ .debug_info    0x000033dc     0x194c ./build/mx95lp5_aom5521a1_8G/ddr/fsl_clock.o
+ .debug_info    0x00004d28     0x18f9 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_fract_pll.o
+ .debug_info    0x00006621     0x1132 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_power.o
+ .debug_info    0x00007753     0x1d2d ./build/mx95lp5_aom5521a1_8G/ddr/fsl_src.o
+ .debug_info    0x00009480      0x3a5 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_sysctr.o
+ .debug_info    0x00009825      0x41a ./build/mx95lp5_aom5521a1_8G/ddr/lpddr5_timing.o
+ .debug_info    0x00009c3f      0x55a ./build/mx95lp5_aom5521a1_8G/ddr/main.o
+ .debug_info    0x0000a199     0x18e0 ./build/mx95lp5_aom5521a1_8G/ddr/ddr_init.o
+ .debug_info    0x0000ba79      0x3a8 ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_utils.o
+ .debug_info    0x0000be21     0x1322 ./build/mx95lp5_aom5521a1_8G/ddr/helper.o
+ .debug_info    0x0000d143     0x10ef ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_qb.o
+ .debug_info    0x0000e232      0x77b ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_train.o
+ .debug_info    0x0000e9ad     0x1098 ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_qb_gen.o
+ .debug_info    0x0000fa45      0x946 ./build/mx95lp5_aom5521a1_8G/ddr/romapi.o
+ .debug_info    0x0001038b       0x33 ./build/mx95lp5_aom5521a1_8G/ddr/aeabi_memset-thumb2.o
+ .debug_info    0x000103be      0x2db ./build/mx95lp5_aom5521a1_8G/ddr/oei_entry.o
+ .debug_info    0x00010699       0x24 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main/nofp/libgcc.a(_aeabi_uldivmod.o)
+ .debug_info    0x000106bd      0x6f5 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main/nofp/libgcc.a(_udivmoddi4.o)
+ .debug_info    0x00010db2       0x3c /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main/nofp/libgcc.a(_dvmd_tls.o)
+
+.debug_abbrev   0x00000000     0x39f6
+ .debug_abbrev  0x00000000       0x64 ./build/mx95lp5_aom5521a1_8G/ddr/board.o
+ .debug_abbrev  0x00000064      0x236 ./build/mx95lp5_aom5521a1_8G/ddr/soc_clock.o
+ .debug_abbrev  0x0000029a       0x7c ./build/mx95lp5_aom5521a1_8G/ddr/soc_edma.o
+ .debug_abbrev  0x00000316      0x1b3 ./build/mx95lp5_aom5521a1_8G/ddr/soc_time_cm33.o
+ .debug_abbrev  0x000004c9      0x2f7 ./build/mx95lp5_aom5521a1_8G/ddr/soc_ddr.o
+ .debug_abbrev  0x000007c0       0xbf ./build/mx95lp5_aom5521a1_8G/ddr/crc.o
+ .debug_abbrev  0x0000087f      0x2f0 ./build/mx95lp5_aom5521a1_8G/ddr/edma.o
+ .debug_abbrev  0x00000b6f      0x3a3 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ccm.o
+ .debug_abbrev  0x00000f12      0x266 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_clock.o
+ .debug_abbrev  0x00001178      0x45e ./build/mx95lp5_aom5521a1_8G/ddr/fsl_fract_pll.o
+ .debug_abbrev  0x000015d6      0x351 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_power.o
+ .debug_abbrev  0x00001927      0x4b6 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_src.o
+ .debug_abbrev  0x00001ddd      0x1f5 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_sysctr.o
+ .debug_abbrev  0x00001fd2       0xe5 ./build/mx95lp5_aom5521a1_8G/ddr/lpddr5_timing.o
+ .debug_abbrev  0x000020b7      0x239 ./build/mx95lp5_aom5521a1_8G/ddr/main.o
+ .debug_abbrev  0x000022f0      0x3cc ./build/mx95lp5_aom5521a1_8G/ddr/ddr_init.o
+ .debug_abbrev  0x000026bc      0x25a ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_utils.o
+ .debug_abbrev  0x00002916      0x35c ./build/mx95lp5_aom5521a1_8G/ddr/helper.o
+ .debug_abbrev  0x00002c72      0x31f ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_qb.o
+ .debug_abbrev  0x00002f91      0x225 ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_train.o
+ .debug_abbrev  0x000031b6      0x231 ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_qb_gen.o
+ .debug_abbrev  0x000033e7      0x29d ./build/mx95lp5_aom5521a1_8G/ddr/romapi.o
+ .debug_abbrev  0x00003684       0x28 ./build/mx95lp5_aom5521a1_8G/ddr/aeabi_memset-thumb2.o
+ .debug_abbrev  0x000036ac      0x1a6 ./build/mx95lp5_aom5521a1_8G/ddr/oei_entry.o
+ .debug_abbrev  0x00003852       0x14 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main/nofp/libgcc.a(_aeabi_uldivmod.o)
+ .debug_abbrev  0x00003866      0x16a /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main/nofp/libgcc.a(_udivmoddi4.o)
+ .debug_abbrev  0x000039d0       0x26 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main/nofp/libgcc.a(_dvmd_tls.o)
+
+.debug_aranges  0x00000000      0x6a8
+ .debug_aranges
+                0x00000000       0x20 ./build/mx95lp5_aom5521a1_8G/ddr/board.o
+ .debug_aranges
+                0x00000020       0x40 ./build/mx95lp5_aom5521a1_8G/ddr/soc_clock.o
+ .debug_aranges
+                0x00000060       0x20 ./build/mx95lp5_aom5521a1_8G/ddr/soc_edma.o
+ .debug_aranges
+                0x00000080       0x48 ./build/mx95lp5_aom5521a1_8G/ddr/soc_time_cm33.o
+ .debug_aranges
+                0x000000c8       0x50 ./build/mx95lp5_aom5521a1_8G/ddr/soc_ddr.o
+ .debug_aranges
+                0x00000118       0x30 ./build/mx95lp5_aom5521a1_8G/ddr/crc.o
+ .debug_aranges
+                0x00000148       0x60 ./build/mx95lp5_aom5521a1_8G/ddr/edma.o
+ .debug_aranges
+                0x000001a8       0xc8 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ccm.o
+ .debug_aranges
+                0x00000270       0x48 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_clock.o
+ .debug_aranges
+                0x000002b8       0x90 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_fract_pll.o
+ .debug_aranges
+                0x00000348       0x60 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_power.o
+ .debug_aranges
+                0x000003a8       0x80 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_src.o
+ .debug_aranges
+                0x00000428       0x50 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_sysctr.o
+ .debug_aranges
+                0x00000478       0x18 ./build/mx95lp5_aom5521a1_8G/ddr/lpddr5_timing.o
+ .debug_aranges
+                0x00000490       0x20 ./build/mx95lp5_aom5521a1_8G/ddr/main.o
+ .debug_aranges
+                0x000004b0       0x30 ./build/mx95lp5_aom5521a1_8G/ddr/ddr_init.o
+ .debug_aranges
+                0x000004e0       0x38 ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_utils.o
+ .debug_aranges
+                0x00000518       0x58 ./build/mx95lp5_aom5521a1_8G/ddr/helper.o
+ .debug_aranges
+                0x00000570       0x20 ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_qb.o
+ .debug_aranges
+                0x00000590       0x20 ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_train.o
+ .debug_aranges
+                0x000005b0       0x20 ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_qb_gen.o
+ .debug_aranges
+                0x000005d0       0x38 ./build/mx95lp5_aom5521a1_8G/ddr/romapi.o
+ .debug_aranges
+                0x00000608       0x20 ./build/mx95lp5_aom5521a1_8G/ddr/aeabi_memset-thumb2.o
+ .debug_aranges
+                0x00000628       0x20 ./build/mx95lp5_aom5521a1_8G/ddr/oei_entry.o
+ .debug_aranges
+                0x00000648       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main/nofp/libgcc.a(_aeabi_uldivmod.o)
+ .debug_aranges
+                0x00000668       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main/nofp/libgcc.a(_udivmoddi4.o)
+ .debug_aranges
+                0x00000688       0x20 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main/nofp/libgcc.a(_dvmd_tls.o)
+
+.debug_rnglists
+                0x00000000      0xaf7
+ .debug_rnglists
+                0x00000000       0x13 ./build/mx95lp5_aom5521a1_8G/ddr/board.o
+ .debug_rnglists
+                0x00000013       0x44 ./build/mx95lp5_aom5521a1_8G/ddr/soc_clock.o
+ .debug_rnglists
+                0x00000057       0x13 ./build/mx95lp5_aom5521a1_8G/ddr/soc_edma.o
+ .debug_rnglists
+                0x0000006a       0x31 ./build/mx95lp5_aom5521a1_8G/ddr/soc_time_cm33.o
+ .debug_rnglists
+                0x0000009b       0x44 ./build/mx95lp5_aom5521a1_8G/ddr/soc_ddr.o
+ .debug_rnglists
+                0x000000df       0x21 ./build/mx95lp5_aom5521a1_8G/ddr/crc.o
+ .debug_rnglists
+                0x00000100       0x8c ./build/mx95lp5_aom5521a1_8G/ddr/edma.o
+ .debug_rnglists
+                0x0000018c      0x139 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ccm.o
+ .debug_rnglists
+                0x000002c5       0x87 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_clock.o
+ .debug_rnglists
+                0x0000034c      0x169 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_fract_pll.o
+ .debug_rnglists
+                0x000004b5      0x107 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_power.o
+ .debug_rnglists
+                0x000005bc      0x199 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_src.o
+ .debug_rnglists
+                0x00000755       0x5b ./build/mx95lp5_aom5521a1_8G/ddr/fsl_sysctr.o
+ .debug_rnglists
+                0x000007b0       0x23 ./build/mx95lp5_aom5521a1_8G/ddr/main.o
+ .debug_rnglists
+                0x000007d3       0x66 ./build/mx95lp5_aom5521a1_8G/ddr/ddr_init.o
+ .debug_rnglists
+                0x00000839       0x75 ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_utils.o
+ .debug_rnglists
+                0x000008ae       0xab ./build/mx95lp5_aom5521a1_8G/ddr/helper.o
+ .debug_rnglists
+                0x00000959       0x57 ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_qb.o
+ .debug_rnglists
+                0x000009b0       0x14 ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_train.o
+ .debug_rnglists
+                0x000009c4       0x50 ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_qb_gen.o
+ .debug_rnglists
+                0x00000a14       0x4f ./build/mx95lp5_aom5521a1_8G/ddr/romapi.o
+ .debug_rnglists
+                0x00000a63       0x1f ./build/mx95lp5_aom5521a1_8G/ddr/oei_entry.o
+ .debug_rnglists
+                0x00000a82       0x75 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main/nofp/libgcc.a(_udivmoddi4.o)
+
+.debug_line     0x00000000     0x787d
+ .debug_line    0x00000000       0x73 ./build/mx95lp5_aom5521a1_8G/ddr/board.o
+ .debug_line    0x00000073      0x42a ./build/mx95lp5_aom5521a1_8G/ddr/soc_clock.o
+ .debug_line    0x0000049d       0xb1 ./build/mx95lp5_aom5521a1_8G/ddr/soc_edma.o
+ .debug_line    0x0000054e      0x172 ./build/mx95lp5_aom5521a1_8G/ddr/soc_time_cm33.o
+ .debug_line    0x000006c0      0x2f9 ./build/mx95lp5_aom5521a1_8G/ddr/soc_ddr.o
+ .debug_line    0x000009b9      0x3bc ./build/mx95lp5_aom5521a1_8G/ddr/crc.o
+ .debug_line    0x00000d75      0x3ff ./build/mx95lp5_aom5521a1_8G/ddr/edma.o
+ .debug_line    0x00001174      0xa91 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ccm.o
+ .debug_line    0x00001c05      0xcf7 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_clock.o
+ .debug_line    0x000028fc      0xee1 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_fract_pll.o
+ .debug_line    0x000037dd      0x66f ./build/mx95lp5_aom5521a1_8G/ddr/fsl_power.o
+ .debug_line    0x00003e4c      0xc5d ./build/mx95lp5_aom5521a1_8G/ddr/fsl_src.o
+ .debug_line    0x00004aa9      0x2f3 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_sysctr.o
+ .debug_line    0x00004d9c       0x63 ./build/mx95lp5_aom5521a1_8G/ddr/lpddr5_timing.o
+ .debug_line    0x00004dff      0x1fd ./build/mx95lp5_aom5521a1_8G/ddr/main.o
+ .debug_line    0x00004ffc      0x5e9 ./build/mx95lp5_aom5521a1_8G/ddr/ddr_init.o
+ .debug_line    0x000055e5      0x2ff ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_utils.o
+ .debug_line    0x000058e4      0x8bf ./build/mx95lp5_aom5521a1_8G/ddr/helper.o
+ .debug_line    0x000061a3      0x44c ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_qb.o
+ .debug_line    0x000065ef      0x1cb ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_train.o
+ .debug_line    0x000067ba      0x644 ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_qb_gen.o
+ .debug_line    0x00006dfe      0x25a ./build/mx95lp5_aom5521a1_8G/ddr/romapi.o
+ .debug_line    0x00007058       0x88 ./build/mx95lp5_aom5521a1_8G/ddr/aeabi_memset-thumb2.o
+ .debug_line    0x000070e0      0x1a7 ./build/mx95lp5_aom5521a1_8G/ddr/oei_entry.o
+ .debug_line    0x00007287       0x4e /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main/nofp/libgcc.a(_aeabi_uldivmod.o)
+ .debug_line    0x000072d5      0x55e /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main/nofp/libgcc.a(_udivmoddi4.o)
+ .debug_line    0x00007833       0x4a /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main/nofp/libgcc.a(_dvmd_tls.o)
+
+.debug_str      0x00000000     0x46c2
+ .debug_str     0x00000000     0x46c2 ./build/mx95lp5_aom5521a1_8G/ddr/board.o
+                                0x1c3 (size before relaxing)
+ .debug_str     0x000046c2      0xd4b ./build/mx95lp5_aom5521a1_8G/ddr/soc_clock.o
+ .debug_str     0x000046c2      0x1c8 ./build/mx95lp5_aom5521a1_8G/ddr/soc_edma.o
+ .debug_str     0x000046c2      0x2b0 ./build/mx95lp5_aom5521a1_8G/ddr/soc_time_cm33.o
+ .debug_str     0x000046c2      0x6a6 ./build/mx95lp5_aom5521a1_8G/ddr/soc_ddr.o
+ .debug_str     0x000046c2      0x1cd ./build/mx95lp5_aom5521a1_8G/ddr/crc.o
+ .debug_str     0x000046c2      0x5ff ./build/mx95lp5_aom5521a1_8G/ddr/edma.o
+ .debug_str     0x000046c2      0x64d ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ccm.o
+ .debug_str     0x000046c2      0xe58 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_clock.o
+ .debug_str     0x000046c2      0xf56 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_fract_pll.o
+ .debug_str     0x000046c2     0x134a ./build/mx95lp5_aom5521a1_8G/ddr/fsl_power.o
+ .debug_str     0x000046c2     0x132c ./build/mx95lp5_aom5521a1_8G/ddr/fsl_src.o
+ .debug_str     0x000046c2      0x2cb ./build/mx95lp5_aom5521a1_8G/ddr/fsl_sysctr.o
+ .debug_str     0x000046c2      0x469 ./build/mx95lp5_aom5521a1_8G/ddr/lpddr5_timing.o
+ .debug_str     0x000046c2      0x49a ./build/mx95lp5_aom5521a1_8G/ddr/main.o
+ .debug_str     0x000046c2     0x113f ./build/mx95lp5_aom5521a1_8G/ddr/ddr_init.o
+ .debug_str     0x000046c2      0x2c5 ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_utils.o
+ .debug_str     0x000046c2      0x8d2 ./build/mx95lp5_aom5521a1_8G/ddr/helper.o
+ .debug_str     0x000046c2      0x92b ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_qb.o
+ .debug_str     0x000046c2      0x6d4 ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_train.o
+ .debug_str     0x000046c2      0xe42 ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_qb_gen.o
+ .debug_str     0x000046c2      0xde8 ./build/mx95lp5_aom5521a1_8G/ddr/romapi.o
+ .debug_str     0x000046c2       0x5b ./build/mx95lp5_aom5521a1_8G/ddr/aeabi_memset-thumb2.o
+ .debug_str     0x000046c2      0x245 ./build/mx95lp5_aom5521a1_8G/ddr/oei_entry.o
+ .debug_str     0x000046c2       0xa4 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main/nofp/libgcc.a(_aeabi_uldivmod.o)
+ .debug_str     0x000046c2      0x687 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main/nofp/libgcc.a(_udivmoddi4.o)
+ .debug_str     0x000046c2       0xc4 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main/nofp/libgcc.a(_dvmd_tls.o)
+
+.comment        0x00000000       0x26
+ .comment       0x00000000       0x26 ./build/mx95lp5_aom5521a1_8G/ddr/board.o
+                                 0x27 (size before relaxing)
+ .comment       0x00000026       0x27 ./build/mx95lp5_aom5521a1_8G/ddr/soc_clock.o
+ .comment       0x00000026       0x27 ./build/mx95lp5_aom5521a1_8G/ddr/soc_edma.o
+ .comment       0x00000026       0x27 ./build/mx95lp5_aom5521a1_8G/ddr/soc_time_cm33.o
+ .comment       0x00000026       0x27 ./build/mx95lp5_aom5521a1_8G/ddr/soc_ddr.o
+ .comment       0x00000026       0x27 ./build/mx95lp5_aom5521a1_8G/ddr/crc.o
+ .comment       0x00000026       0x27 ./build/mx95lp5_aom5521a1_8G/ddr/edma.o
+ .comment       0x00000026       0x27 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ccm.o
+ .comment       0x00000026       0x27 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_clock.o
+ .comment       0x00000026       0x27 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_fract_pll.o
+ .comment       0x00000026       0x27 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_power.o
+ .comment       0x00000026       0x27 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_src.o
+ .comment       0x00000026       0x27 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_sysctr.o
+ .comment       0x00000026       0x27 ./build/mx95lp5_aom5521a1_8G/ddr/lpddr5_timing.o
+ .comment       0x00000026       0x27 ./build/mx95lp5_aom5521a1_8G/ddr/main.o
+ .comment       0x00000026       0x27 ./build/mx95lp5_aom5521a1_8G/ddr/ddr_init.o
+ .comment       0x00000026       0x27 ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_utils.o
+ .comment       0x00000026       0x27 ./build/mx95lp5_aom5521a1_8G/ddr/helper.o
+ .comment       0x00000026       0x27 ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_qb.o
+ .comment       0x00000026       0x27 ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_train.o
+ .comment       0x00000026       0x27 ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_qb_gen.o
+ .comment       0x00000026       0x27 ./build/mx95lp5_aom5521a1_8G/ddr/romapi.o
+ .comment       0x00000026       0x27 ./build/mx95lp5_aom5521a1_8G/ddr/oei_entry.o
+ .comment       0x00000026       0x27 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main/nofp/libgcc.a(_udivmoddi4.o)
+
+.ARM.attributes
+                0x00000000       0x32
+ .ARM.attributes
+                0x00000000       0x32 ./build/mx95lp5_aom5521a1_8G/ddr/board.o
+ .ARM.attributes
+                0x00000032       0x32 ./build/mx95lp5_aom5521a1_8G/ddr/soc_clock.o
+ .ARM.attributes
+                0x00000064       0x32 ./build/mx95lp5_aom5521a1_8G/ddr/soc_edma.o
+ .ARM.attributes
+                0x00000096       0x32 ./build/mx95lp5_aom5521a1_8G/ddr/soc_time_cm33.o
+ .ARM.attributes
+                0x000000c8       0x32 ./build/mx95lp5_aom5521a1_8G/ddr/soc_ddr.o
+ .ARM.attributes
+                0x000000fa       0x32 ./build/mx95lp5_aom5521a1_8G/ddr/crc.o
+ .ARM.attributes
+                0x0000012c       0x32 ./build/mx95lp5_aom5521a1_8G/ddr/edma.o
+ .ARM.attributes
+                0x0000015e       0x32 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ccm.o
+ .ARM.attributes
+                0x00000190       0x32 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_clock.o
+ .ARM.attributes
+                0x000001c2       0x32 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_fract_pll.o
+ .ARM.attributes
+                0x000001f4       0x32 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_power.o
+ .ARM.attributes
+                0x00000226       0x32 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_src.o
+ .ARM.attributes
+                0x00000258       0x32 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_sysctr.o
+ .ARM.attributes
+                0x0000028a       0x32 ./build/mx95lp5_aom5521a1_8G/ddr/lpddr5_timing.o
+ .ARM.attributes
+                0x000002bc       0x32 ./build/mx95lp5_aom5521a1_8G/ddr/main.o
+ .ARM.attributes
+                0x000002ee       0x32 ./build/mx95lp5_aom5521a1_8G/ddr/ddr_init.o
+ .ARM.attributes
+                0x00000320       0x32 ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_utils.o
+ .ARM.attributes
+                0x00000352       0x32 ./build/mx95lp5_aom5521a1_8G/ddr/helper.o
+ .ARM.attributes
+                0x00000384       0x32 ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_qb.o
+ .ARM.attributes
+                0x000003b6       0x32 ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_train.o
+ .ARM.attributes
+                0x000003e8       0x32 ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_qb_gen.o
+ .ARM.attributes
+                0x0000041a       0x32 ./build/mx95lp5_aom5521a1_8G/ddr/romapi.o
+ .ARM.attributes
+                0x0000044c       0x22 ./build/mx95lp5_aom5521a1_8G/ddr/aeabi_memset-thumb2.o
+ .ARM.attributes
+                0x0000046e       0x32 ./build/mx95lp5_aom5521a1_8G/ddr/oei_entry.o
+ .ARM.attributes
+                0x000004a0       0x22 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main/nofp/libgcc.a(_aeabi_uldivmod.o)
+ .ARM.attributes
+                0x000004c2       0x32 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main/nofp/libgcc.a(_udivmoddi4.o)
+ .ARM.attributes
+                0x000004f4       0x22 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main/nofp/libgcc.a(_dvmd_tls.o)
+
+.debug_frame    0x00000000     0x13f4
+ .debug_frame   0x00000000       0x20 ./build/mx95lp5_aom5521a1_8G/ddr/board.o
+ .debug_frame   0x00000020       0xa8 ./build/mx95lp5_aom5521a1_8G/ddr/soc_clock.o
+ .debug_frame   0x000000c8       0x20 ./build/mx95lp5_aom5521a1_8G/ddr/soc_edma.o
+ .debug_frame   0x000000e8       0x84 ./build/mx95lp5_aom5521a1_8G/ddr/soc_time_cm33.o
+ .debug_frame   0x0000016c       0xac ./build/mx95lp5_aom5521a1_8G/ddr/soc_ddr.o
+ .debug_frame   0x00000218       0x70 ./build/mx95lp5_aom5521a1_8G/ddr/crc.o
+ .debug_frame   0x00000288       0xd0 ./build/mx95lp5_aom5521a1_8G/ddr/edma.o
+ .debug_frame   0x00000358      0x218 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ccm.o
+ .debug_frame   0x00000570      0x45c ./build/mx95lp5_aom5521a1_8G/ddr/fsl_clock.o
+ .debug_frame   0x000009cc      0x274 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_fract_pll.o
+ .debug_frame   0x00000c40      0x108 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_power.o
+ .debug_frame   0x00000d48      0x1a0 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_src.o
+ .debug_frame   0x00000ee8       0x94 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_sysctr.o
+ .debug_frame   0x00000f7c       0x3c ./build/mx95lp5_aom5521a1_8G/ddr/main.o
+ .debug_frame   0x00000fb8       0x84 ./build/mx95lp5_aom5521a1_8G/ddr/ddr_init.o
+ .debug_frame   0x0000103c       0x88 ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_utils.o
+ .debug_frame   0x000010c4      0x178 ./build/mx95lp5_aom5521a1_8G/ddr/helper.o
+ .debug_frame   0x0000123c       0x38 ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_qb.o
+ .debug_frame   0x00001274       0x38 ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_train.o
+ .debug_frame   0x000012ac       0x30 ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_qb_gen.o
+ .debug_frame   0x000012dc       0x84 ./build/mx95lp5_aom5521a1_8G/ddr/romapi.o
+ .debug_frame   0x00001360       0x30 ./build/mx95lp5_aom5521a1_8G/ddr/oei_entry.o
+ .debug_frame   0x00001390       0x2c /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main/nofp/libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x000013bc       0x38 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main/nofp/libgcc.a(_udivmoddi4.o)
+
+.debug_loclists
+                0x00000000     0x8cda
+ .debug_loclists
+                0x00000000      0x42e ./build/mx95lp5_aom5521a1_8G/ddr/soc_clock.o
+ .debug_loclists
+                0x0000042e       0x48 ./build/mx95lp5_aom5521a1_8G/ddr/soc_edma.o
+ .debug_loclists
+                0x00000476       0x6c ./build/mx95lp5_aom5521a1_8G/ddr/soc_time_cm33.o
+ .debug_loclists
+                0x000004e2      0x1b1 ./build/mx95lp5_aom5521a1_8G/ddr/soc_ddr.o
+ .debug_loclists
+                0x00000693      0x446 ./build/mx95lp5_aom5521a1_8G/ddr/crc.o
+ .debug_loclists
+                0x00000ad9      0x674 ./build/mx95lp5_aom5521a1_8G/ddr/edma.o
+ .debug_loclists
+                0x0000114d      0xddf ./build/mx95lp5_aom5521a1_8G/ddr/fsl_ccm.o
+ .debug_loclists
+                0x00001f2c     0x122c ./build/mx95lp5_aom5521a1_8G/ddr/fsl_clock.o
+ .debug_loclists
+                0x00003158     0x176d ./build/mx95lp5_aom5521a1_8G/ddr/fsl_fract_pll.o
+ .debug_loclists
+                0x000048c5      0x735 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_power.o
+ .debug_loclists
+                0x00004ffa      0xe9d ./build/mx95lp5_aom5521a1_8G/ddr/fsl_src.o
+ .debug_loclists
+                0x00005e97      0x152 ./build/mx95lp5_aom5521a1_8G/ddr/fsl_sysctr.o
+ .debug_loclists
+                0x00005fe9      0x19c ./build/mx95lp5_aom5521a1_8G/ddr/main.o
+ .debug_loclists
+                0x00006185      0x4bb ./build/mx95lp5_aom5521a1_8G/ddr/ddr_init.o
+ .debug_loclists
+                0x00006640      0x186 ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_utils.o
+ .debug_loclists
+                0x000067c6      0xa01 ./build/mx95lp5_aom5521a1_8G/ddr/helper.o
+ .debug_loclists
+                0x000071c7      0x2b5 ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_qb.o
+ .debug_loclists
+                0x0000747c       0xbc ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_train.o
+ .debug_loclists
+                0x00007538      0xa2a ./build/mx95lp5_aom5521a1_8G/ddr/ddrphy_qb_gen.o
+ .debug_loclists
+                0x00007f62      0x3e8 ./build/mx95lp5_aom5521a1_8G/ddr/romapi.o
+ .debug_loclists
+                0x0000834a       0x51 ./build/mx95lp5_aom5521a1_8G/ddr/oei_entry.o
+ .debug_loclists
+                0x0000839b      0x93f /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main/nofp/libgcc.a(_udivmoddi4.o)
+
+.debug_line_str
+                0x00000000       0xec
+ .debug_line_str
+                0x00000000       0xec ./build/mx95lp5_aom5521a1_8G/ddr/aeabi_memset-thumb2.o
+                                 0x48 (size before relaxing)
+ .debug_line_str
+                0x000000ec       0x98 /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main/nofp/libgcc.a(_aeabi_uldivmod.o)
+ .debug_line_str
+                0x000000ec       0x9c /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main/nofp/libgcc.a(_dvmd_tls.o)

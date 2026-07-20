@@ -4,6 +4,7 @@
  */
 #include <stddef.h>
 #include <stdint.h>
+#include <stdio.h>
 #include <errno.h>
 #include "crc.h"
 #include "common.h"
@@ -47,6 +48,57 @@ static bool Check_Dfi_Init_Complete(void)
     /* Return status */
     return true;
 }
+
+#ifdef DEBUG
+/*--------------------------------------------------------------------------*/
+/* DDRMIX SSI / safety-parity diagnostic dump (DEBUG builds only)           */
+/*                                                                          */
+/* FCCU NCF[68] (EMCEM_FCCU_FLT_PARITY_DDRMIX) is asserted by the parity    */
+/* gaskets and safety-relevant SSIs in DDRMIX. The BLK_CTRL_DDRMIX          */
+/* block-control registers below configure those gaskets / SSIs. A          */
+/* definitive DDRMIX SSI parity "latched" status register is not exposed by */
+/* the block-control view (the latched fault is collected by the VFCCU,     */
+/* which is owned by the System Manager and not readable from the DDR OEI), */
+/* so these are dumped as candidate registers, each labelled with its       */
+/* absolute address, and the readable DDRC ERR_DETECT parity/PHY error bits */
+/* are used as the DDR-side proxy for the decoded "parity latched" line.    */
+/* See the i.MX95 RM DDRMIX BLK_CTRL and DDRC chapters.                     */
+/*--------------------------------------------------------------------------*/
+/* NOC2DDR SSI Target Power Control */
+#define DDRMIX_SSI_PWR_CTRL_ADDR       (BLK_CTRL_DDRMIX_BASE + 0x14U)
+/* DDRMIX AXI Parity Check Clear / hold */
+#define DDRMIX_AXI_PARITY_ERR_CLR_ADDR (BLK_CTRL_DDRMIX_BASE + 0x28U)
+/* DDRMIX AXI Parity Error Injection */
+#define DDRMIX_AXI_PARITY_ERR_INJ_ADDR (BLK_CTRL_DDRMIX_BASE + 0x2CU)
+/* Fault disable for safety faults (bit0: ddr_phy_intfc_chk_fault_dis) */
+#define DDRMIX_CHK_FAULT_DIS_ADDR      (BLK_CTRL_DDRMIX_BASE + 0x4CU)
+/* DDRC Memory Error Detect (readable parity/PHY error status) */
+#define DDRC_ERR_DETECT_ADDR           (DDRC_BASE + 0x1140U)
+
+void Ddr_Ddrmix_Ssi_Parity_Dump(const char *phase)
+{
+    uint32_t ssiPwr  = Read32(DDRMIX_SSI_PWR_CTRL_ADDR);
+    uint32_t parClr  = Read32(DDRMIX_AXI_PARITY_ERR_CLR_ADDR);
+    uint32_t parInj  = Read32(DDRMIX_AXI_PARITY_ERR_INJ_ADDR);
+    uint32_t chkFdis = Read32(DDRMIX_CHK_FAULT_DIS_ADDR);
+    uint32_t errDet  = Read32(DDRC_ERR_DETECT_ADDR);
+    bool latched = (errDet &
+        (DDRC_ERR_DETECT_IPE_MASK | DDRC_ERR_DETECT_PHYE_MASK)) != 0U;
+
+    printf("DDR OEI: DDRMIX SSI parity dump [%s]\n", phase);
+    printf("DDR OEI:   SSI_PWR_CTRL @0x%08lx = 0x%08lx\n",
+        (unsigned long)DDRMIX_SSI_PWR_CTRL_ADDR, (unsigned long)ssiPwr);
+    printf("DDR OEI:   AXI_PARITY_ERR_CLR @0x%08lx = 0x%08lx\n",
+        (unsigned long)DDRMIX_AXI_PARITY_ERR_CLR_ADDR, (unsigned long)parClr);
+    printf("DDR OEI:   AXI_PARITY_ERR_INJECT @0x%08lx = 0x%08lx\n",
+        (unsigned long)DDRMIX_AXI_PARITY_ERR_INJ_ADDR, (unsigned long)parInj);
+    printf("DDR OEI:   CHK_FAULT_DIS @0x%08lx = 0x%08lx\n",
+        (unsigned long)DDRMIX_CHK_FAULT_DIS_ADDR, (unsigned long)chkFdis);
+    printf("DDR OEI:   DDRC_ERR_DETECT @0x%08lx = 0x%08lx\n",
+        (unsigned long)DDRC_ERR_DETECT_ADDR, (unsigned long)errDet);
+    printf("DDR OEI:   parity latched: %s\n", latched ? "yes" : "no");
+}
+#endif
 
 int Ddrc_Config(struct dram_timing_info *dtiming, uint32_t fsp_id)
 {
@@ -181,6 +233,11 @@ int Ddrc_Init(struct dram_timing_info *dtiming, uint32_t img_id)
 
     /** Power up DDRMIX, prepare resets */
     Ddr_MixPowerUp();
+
+#ifdef DEBUG
+    /* (a) Before the DDRMIX SSI / safety parity checkers are enabled */
+    Ddr_Ddrmix_Ssi_Parity_Dump("before DDRMIX/SSI parity enable");
+#endif
 
     /** Start DfiClk and APBCLK
      *
@@ -384,6 +441,11 @@ int Ddrc_Init(struct dram_timing_info *dtiming, uint32_t img_id)
 
     /** Set SR_FAST_WK_EN in REG_DDR_SDRAM_CFG_3 */
     DDRC->DDR_SDRAM_CFG_3 |= DDRC_DDR_SDRAM_CFG_3_SR_FAST_WK_EN_MASK;
+#endif
+
+#ifdef DEBUG
+    /* (b) After the final DDRMIX interconnect / parity register writes */
+    Ddr_Ddrmix_Ssi_Parity_Dump("after DDRMIX config writes");
 #endif
 
     return ret;
