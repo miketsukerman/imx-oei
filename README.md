@@ -73,3 +73,13 @@ UART of i.MX95 19x19 EVK.
 
 Customers will usually create their own board port that configures the DDR on their board.
 
+
+Additional board ports are available for the AOM5521A1 SOM (i.MX95, LPDDR5). Select them with
+the `board=` option, for example:
+
+    make board=mx95lp5_aom5521a1_16G oei=ddr DEBUG=1
+    make board=mx95lp5_aom5521a1_8G oei=ddr DEBUG=1
+
+The `mx95lp5_aom5521a1_16G` port targets the 16 GB LPDDR5 configuration and
+`mx95lp5_aom5521a1_8G` targets the 8 GB LPDDR5 configuration.
+
